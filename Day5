@@ -1,0 +1,5 @@
+CREATE DATABASE Instagram;
+CREATE TABLE Messages(msg_id int, sender varchar(20), receiver varchar(20), msg varchar(50));
+CREATE TABLE Story(story_id int, username varchar(20));
+CREATE TABLE Posts(post_id int, username varchar(20));
+CREATE TABLE User(user_id int, username varchar(20),password varchar(20));
